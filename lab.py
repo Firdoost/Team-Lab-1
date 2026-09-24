@@ -19,4 +19,4 @@ y_2 = float(input("Enter the second y position: "))
 z_2 = float(input("Enter the second z position: "))
 
 # V_interp = (1 - t) * A + t * B
-
+# I think t should be time in the formula becasue that part of the formula determines the position on the interpolated vectors. ex: t=1 is 100% of the vector, and t=0.5 is 50% of the vector.
