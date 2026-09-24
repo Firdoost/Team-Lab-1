@@ -17,3 +17,6 @@ time_2 = float(input("Enter time two: "))
 x_2 = float(input("Enter the second x position: "))
 y_2 = float(input("Enter the second y position: "))
 z_2 = float(input("Enter the second z position: "))
+
+# V_interp = (1 - t) * A + t * B
+
