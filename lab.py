@@ -3,10 +3,28 @@ print("Team Lab 3")
 print("Team members: Alyssa, Brisania, Gabe, Vincent")
 print("Activity 1")
 #A
-pounds=int(input("What is the force in pounds?")
+pounds=float(input("What is the force in pounds?")
 newtons=(pounds*4.44822)
-print(pounds+" pounds force in Newtons is "+newtons+" newtons.")
+print(str(pounds)+" pounds force in Newtons is "+str(newtons)+" newtons.")
+#b
+kilometers=float(input("How many kilometers are there?"))
+miles=kilometers*0.621371
+print(str(kilometers)+" kilometers is "+str(miles)+" miles.")
 
+#c
+sec_per_rev=float(input("How many seconds per revolution are there?"))
+hertz=1/sec_per_rev
+print(str(sec_per_rev)+" seconds per revolution is "+str(hertz)+" hertz.")
+
+#d
+mph=float(input("How many miles per hour are there?"))
+cps=mph*0.621371*100000*60*60
+print(str(mph)+" miles per hour are "+str(cps)+" centimeters per second.")
+
+#e
+deg_fahren=float(input("How many degree Fahrenheit are there?"))
+deg_rankine=deg_fahren+459.67
+print(str(deg_fahren)+" degree Fahrenheit is "+str(deg_rankine)+" degrees Rankine.")
 
 print("Activity 2")
 time_1 = float(input("Enter time one: "))
