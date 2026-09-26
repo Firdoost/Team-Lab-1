@@ -1,6 +1,7 @@
 print("Howdy Team!")
 print("Team Lab 3")
 print("Team members: Alyssa, Brisania, Gabe, Vincent")
+print("Aggie Honor Code: An Aggie does not lie, cheat, steal, or tolerate those who do.")
 print("Activity 1")
 #A
 pounds=float(input("What is the force in pounds?"))
