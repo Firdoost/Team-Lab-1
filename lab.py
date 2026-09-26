@@ -3,7 +3,7 @@ print("Team Lab 3")
 print("Team members: Alyssa, Brisania, Gabe, Vincent")
 print("Activity 1")
 #A
-pounds=float(input("What is the force in pounds?")
+pounds=float(input("What is the force in pounds?"))
 newtons=(pounds*4.44822)
 print(str(pounds)+" pounds force in Newtons is "+str(newtons)+" newtons.")
 #b
