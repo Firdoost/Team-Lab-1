@@ -19,7 +19,7 @@ print(str(sec_per_rev)+" seconds per revolution is "+str(hertz)+" hertz.")
 
 #d
 mph=float(input("How many miles per hour are there?"))
-cps=(mph*0.621371*100000)/60/60
+cps=(mph*1.609344*100000)/60/60
 print(str(mph)+" miles per hour are "+str(cps)+" centimeters per second.")
 
 #e
